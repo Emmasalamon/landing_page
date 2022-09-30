@@ -1,0 +1,214 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.titre{
+    width: 75%;
+    margin-left: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+
+   width: 40%;
+}
+
+.L1{
+    display: flex;justify-content: center;
+}
+.photomontre{
+    width: 70%;
+    margin-top: 10%;
+}
+.description{
+    margin-top: 20%;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+
+
+.L2{
+    display: flex;justify-content: center;
+}
+
+
+
+.L3{
+    display: flex;justify-content: center;
+}
+.couleurstexte{
+    width: 65%;
+    font-size: 150%;
+    margin-left: 29%;
+    font-family: 'Montserrat', sans-serif;
+}
+.caracteristiques{
+    width: 65%;
+    font-size: 150%;
+    margin-left: 32%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.L4{
+    display: flex;justify-content: center;
+}
+.gigadispotexte{
+width: 65%;
+font-size: 150%;
+margin-left: -25%;
+font-family: 'Montserrat', sans-serif;
+}
+
+.tailledispo{
+width: 75%;
+font-size: 150%;
+margin-left: 25%;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.L5{
+    display: flex;justify-content: center;
+}
+.prix44mm{
+width: 65%;
+font-size: 150%;
+margin-left: -28%;
+font-family: 'Montserrat', sans-serif;
+}
+
+.prix40mm{
+width: 65%;
+font-size: 150%;
+margin-left: 30%;
+font-family: 'Montserrat', sans-serif;
+}
+footer{
+    display: flex;justify-content: center;
+}
+.fin{
+    font-size: 100%;
+    margin-top:10% ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .titre{
+        width: 75%;
+        margin-left: 10%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .logo{
+    
+       width: 40%;
+    }
+    
+    .L1{
+        display: flex;justify-content: center;
+    }
+    .photomontre{
+        width: 80%;
+        margin-top: 20%;
+    }
+    .description{
+        margin-top: 20%;
+        font-size: 150%;
+        font-family: 'Montserrat', sans-serif;
+    } 
+    
+    
+    
+    .L2{
+        display: flex;justify-content: center;
+        
+    }
+    .couleursmontrephoto{
+        width: 100%;
+    }
+    
+    
+    .L3{
+        display: flex;justify-content: center;
+        flex-direction: column;
+    }
+    .couleurstexte{
+        width: 100%;
+        font-size: 150%;
+        margin-left: 2%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .caracteristiques{
+        width: 90%;
+        font-size: 150%;
+        margin-left: 10%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+    
+    .L4{
+        display: flex;justify-content: center;
+    }
+    .gigadispotexte{
+    width: 65%;
+    font-size: 150%;
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    .tailledispo{
+    width: 75%;
+    font-size: 150%;
+    margin-left: -15%;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+    .L5{
+        display: flex;justify-content: center;
+    }
+    .prix44mm{
+    width: 65%;
+    font-size: 150%;
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    .prix40mm{
+    width: 65%;
+    font-size: 150%;
+    margin-left: -5%;
+    font-family: 'Montserrat', sans-serif;
+    }
+    footer{
+        display: flex;justify-content: center;
+    }
+    .fin{
+        font-size: 100%;
+        margin-top:10% ;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
